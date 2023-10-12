@@ -1,0 +1,41 @@
+.about-section {
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .section-title {
+    color: #4CAF50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .intro-text {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .mission,
+  .team {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mission h3,
+  .team h3 {
+    color: #4CAF50;
+    font-size: 1.5em;
+  }
+  
+  .mission p,
+  .team p {
+    color: #666;
+    line-height: 1.5;
+  }
+  
