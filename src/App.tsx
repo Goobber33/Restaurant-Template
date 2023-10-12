@@ -31,7 +31,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="bg-dark text-white text-center py-3">
+        <header className="bg-dark text-white text-center py-3 App-header">
           <h1>Coeur d'Alene Cuisine</h1>
         </header>
 
