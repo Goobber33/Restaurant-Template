@@ -31,6 +31,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+      <div className="App-content-wrapper">
         <header className="bg-dark text-white text-center py-3 App-header">
           <h1>Coeur d'Alene Cuisine</h1>
         </header>
@@ -45,6 +46,7 @@ function App() {
           <p>© 2023 Coeur d'Alene Cuisine. All rights reserved.</p>
           <p>© 2023 Created by Kyle Parks</p>
         </footer>
+      </div>
       </div>
     </Router>
   );
