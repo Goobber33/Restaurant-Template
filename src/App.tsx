@@ -31,22 +31,22 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <div className="App-content-wrapper">
-        <header className="bg-dark text-white text-center py-3 App-header">
-          <h1>Coeur d'Alene Cuisine</h1>
-        </header>
+        <div className="App-content-wrapper container-lg bg-white">
+          <header className="bg-dark text-white text-center py-3">
+            <h1 className="display-3">Coeur d'Alene Cuisine</h1>
+          </header>
 
-        <NavBar />
+          <NavBar />
 
-        <main className="container my-5">
-          <AnimatedRoutes />
-        </main>
+          <main className="container my-5">
+            <AnimatedRoutes />
+          </main>
 
-        <footer className="bg-dark text-white text-center py-3">
-          <p>© 2023 Coeur d'Alene Cuisine. All rights reserved.</p>
-          <p>© 2023 Created by Kyle Parks</p>
-        </footer>
-      </div>
+          <footer className="bg-dark text-white text-center py-3">
+            <p>© 2023 Coeur d'Alene Cuisine. All rights reserved.</p>
+            <p>© 2023 Created by Kyle Parks</p>
+          </footer>
+        </div>
       </div>
     </Router>
   );
