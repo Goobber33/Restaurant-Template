@@ -42,9 +42,8 @@ function App() {
             <AnimatedRoutes />
           </main>
 
-          <footer className="bg-dark text-white text-center py-3">
-            <p>© 2023 Coeur d'Alene Cuisine. All rights reserved.</p>
-            <p>© 2023 Created by Kyle Parks</p>
+          <footer className="ft bg-dark text-white text-center py-1">
+            <p className='ft'>© 2023 Coeur d'Alene Cuisine. All rights reserved.</p>
           </footer>
         </div>
       </div>

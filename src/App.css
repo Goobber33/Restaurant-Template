@@ -12,7 +12,7 @@
   line-height: 1.6;
   color: #333;
   margin: 0 auto;
-  max-width: 1800px;
+  max-width: 1700px;
   background-color: #f8f8f8;
 }
 
@@ -59,4 +59,8 @@ header h1 {
 .container-lg .content {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.ft {
+  margin-top: 1rem;
 }
